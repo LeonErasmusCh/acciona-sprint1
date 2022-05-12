@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import logo from "/public/logo.png";
 import { Store } from '../utils/store'; //store
 
 export default function Navbar() {
@@ -10,10 +11,10 @@ export default function Navbar() {
     <nav className="navbar fixed-top navBar">
       <div className="container-fluid">
         <div className="logo">
-          <Link href={'sociedades'} passHref>
+        <Link href={'sociedades'} passHref>
             <Image
               alt="Acciona Capital"
-              src="/../public/logo.png"
+              src={logo}
               width={200}
               height={30}
             />
