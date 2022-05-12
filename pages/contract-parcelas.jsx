@@ -52,6 +52,7 @@ export default function ContractParcelas() {
       <div className="container-fluid mainsection">
         <div className="row">
 
+
           {/* sidebar */}
           <div className="col-2 sidebar text-center">
             <div className="row text-center menu">
@@ -65,7 +66,7 @@ export default function ContractParcelas() {
                 <p className="active">Fondo Parcelas de TaguaTagua</p>
               </Link>
               <Link href={'/profile'} passHref>
-                <p className='mt-5'>Mi prefil</p>
+                <p className='mt-5'>Mi perfil</p>
               </Link>
             </div>
           </div>
